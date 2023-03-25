@@ -1,6 +1,15 @@
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --hover-text-color: #404BBF
+  }
+
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 .list {
@@ -31,7 +40,7 @@ color: #4D5AE5;
 }
 
 .address-link {
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 .address-link:hover,
@@ -47,15 +56,15 @@ color: #4D5AE5;
 
 /* Section */
 .section-title {
-    color: #2E2F42;
+    color: var(--title-text-color);
 }
 
 /* Features */
 
 .section-title .title {
-    color: #2E2F42;
+    color: var(--title-text-color)
 }
-}
+
 
 
 
