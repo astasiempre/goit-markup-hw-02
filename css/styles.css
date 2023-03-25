@@ -52,7 +52,9 @@ color: #4D5AE5;
 
 /* Features */
 
-.section-title ti
+.section-title .title {
+    color: #2E2F42;
+}
 }
 
 
