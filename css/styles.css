@@ -1,17 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
 }
 
 .list {
     list-style: none;
 }
-
-.link {
-    text-decoration: none;
-}
-
-/* Header */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -27,32 +21,39 @@ color: #4D5AE5;
     color: #2E2F42;
 }
 
-.menu-link {
-font-weight: 500;
-font-size: 16px;
-line-height: calc(24/16);
-letter-spacing: 0.02em;
-color: #2E2F42;
+.site-nav .link {
+    color: #000000
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: #404BBF;
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#404BBF
 }
 
-.contact-link {
-    font-weight: 400;
-font-size: 16px;
-line-height: calc(24/16);
-letter-spacing: 0.02em;
-color: #434455;
-font-style: normal;
+.address-link {
+    color: #434455;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404BBF;
 }
 
-/* Hero section */
+/* Hero */
+
+.hero-title {
+    /* color:#FFFFFF */
+}
+
+/* Section */
+.section-title {
+    color: #2E2F42;
+}
+
+/* Features */
+
+.section-title ti
+}
+
+
 
