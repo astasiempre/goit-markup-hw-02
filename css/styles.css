@@ -142,12 +142,12 @@ body {
 
 /* Our team */
 
-.section-team (
-  color: var(--footer-logo-part-color);
-)
+.section-team {
+  background-color: var(--footer-logo-part-color);
+}
 
 .team-item {
-  color: var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
 
 .team .title {
