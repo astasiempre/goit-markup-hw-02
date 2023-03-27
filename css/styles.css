@@ -185,11 +185,16 @@ body {
 }
 
 .btn:hover,
-.btnfocus {
+.btn:focus {
   color: var(--primary-white-color);
   background-color: var(--hover-text-color);
 }
 
+.btn:active {
+  color: var(--primary-white-color);
+  background-color: var(--hover-text-color);
+
+}
 
 .card .card-title {
 font-weight: 500;
