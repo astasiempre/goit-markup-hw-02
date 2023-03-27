@@ -12,7 +12,6 @@ body {
   color: var(--primary-text-color);
 }
 
-
 .list {
   list-style: none;
 }
@@ -57,7 +56,6 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--primary-text-color);
 }
 
 .address-link:hover,
@@ -123,7 +121,6 @@ body {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 
 /* what are we doing */
@@ -151,7 +148,7 @@ body {
 .team .text {
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -169,4 +166,104 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--footer-logo-part-color);
+}
+
+/* Portfolio */
+
+.btn-all {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--logo-text-color);
+  background-color: var(--footer-logo-part-color);
+  cursor: pointer;
+}
+
+.btn-all:hover,
+.btn-all:focus {
+  color: var(--primary-white-color);
+  background-color: var(--hover-text-color);
+}
+.btn-web {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--logo-text-color);
+  background-color: var(--footer-logo-part-color);
+  cursor: pointer;
+}
+
+.btn-web:hover,
+.btn-web:focus {
+  color: var(--primary-white-color);
+  background-color: var(--hover-text-color);
+}
+
+.btn-app {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--logo-text-color);
+  background-color: var(--footer-logo-part-color);
+  cursor: pointer;
+}
+
+.btn-app:hover,
+.btn-app:focus {
+  color: var(--primary-white-color);
+  background-color: var(--hover-text-color);
+}
+
+.btn-design {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--logo-text-color);
+  background-color: var(--footer-logo-part-color);
+  cursor: pointer;
+}
+
+.btn-design:hover,
+.btn-design:focus {
+  color: var(--primary-white-color);
+  background-color: var(--hover-text-color);
+}
+
+.btn-market {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--logo-text-color);
+  background-color: var(--footer-logo-part-color);
+  cursor: pointer;
+}
+
+.btn-market:hover,
+.btn-market:focus {
+  color: var(--primary-white-color);
+  background-color: var(--hover-text-color);
+}
+
+.card .card-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+
+.card .text {
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
 }
